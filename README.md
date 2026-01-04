@@ -44,4 +44,31 @@ This project explores customer churn in the telecom industry using a combination
 
 ## Power BI Dashboard
 The dashboard consists of two pages
-### Page 1 - ![Churn Overview](images/overview.png)
+### Page 1 - Churn Overview
+![Churn Overview](images/churn_overview.png)
+* Customer churn distribution
+* Churn by contract
+* Churn by tenure group
+### Page 2 - Churn Drivers
+![Churn Drivers](images/churn_drivers.png)
+* Pricing impact
+* Churn rate by internet service
+* Churn rate by payment method
+
+## Key Insights
+* Month-to-Month customers churn the most
+* Longer tenure reduces churn risk
+* Fiber optic users churn more than DSL or no service
+* Electronic check payments are linked to higher churn
+* Higher charges correlate with churn, suggesting price sensitivity
+
+## Project Files
+* telco_churn_clean.xlsx - Cleaned dataset
+* telco_churn_analysis.sql - SQL analysis queries
+* eda_churn_analysis.ipynb - Python exploratory data analysis
+* churn_dashboard.pbix - Power BI dashboard
+
+## Author
+#### Nour Alzubaidi
+Junior Data Analyst
+Skills: Excel | SQL | Python | Power BI | Data Analysis | Data Visualization
